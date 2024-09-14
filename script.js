@@ -28,22 +28,3 @@ howImage(0); // Show the first image initially
 const intervalTime = 5000;
 setInterval(changeBackgroundImage, intervalTime);
 
-// const slideshow = document.querySelector('.slideshow');
-// const slides = slideshow.querySelectorAll('.slide');
-
-// let currentSlide = 0;
-
-// function showSlide(index) {
-//   slides.forEach(slide => {
-//     slide.style.display = 'none';
-//   });
-
-//   slides[index].style.display = 'block';
-// }
-
-// showSlide(0); // Show the first slide initially
-
-// setInterval(() => {
-//   currentSlide = (currentSlide + 1) % slides.length;
-//   showSlide(currentSlide);
-// }, 3000); // Change slide every 3 seconds (adjust as needed)
